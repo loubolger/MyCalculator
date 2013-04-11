@@ -5,7 +5,7 @@
       <contents xmi:type="ecore:EAnnotation" xmi:id="_vwjxMaKUEeKJk6OMo0Pwcg" source="codegen">
         <details xmi:id="_vwjxMqKUEeKJk6OMo0Pwcg" key="codegenDirectory" value="/MyCalculator/src"/>
         <details xmi:id="_vxTYEKKUEeKJk6OMo0Pwcg" key="observedFolders" value="/MyCalculator/src"/>
-        <details xmi:id="_y3V78KKUEeKJk6OMo0Pwcg" key="AssociatedSourceCode" value="/MyCalculator/src/ie/gcd/maths/Calculator.java;2405095857/1;/MyCalculator/src/ie/gcd/test/CalculatorTest.java;2240508423/1;"/>
+        <details xmi:id="_y3V78KKUEeKJk6OMo0Pwcg" key="AssociatedSourceCode" value="/MyCalculator/src/ie/gcd/maths/Calculator.java;2405095857/1;/MyCalculator/src/ie/gcd/test/CalculatorTest.java;2240508423/1;/MyCalculator/src/ie/gcd/maths/ScientificCalculator.java;2824801114/1;/MyCalculator/src/ie/gcd/test/ScientificCalculatorTest.java;474102406/1;"/>
       </contents>
     </eAnnotations>
     <elementImport xmi:id="_ynQRgKKUEeKJk6OMo0Pwcg">
@@ -56,6 +56,24 @@
               </ownedParameter>
             </ownedOperation>
           </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_UqE50KKZEeKJk6OMo0Pwcg" name="ScientificCalculator">
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UqE51KKZEeKJk6OMo0Pwcg" name="main" specification="_UqE50aKZEeKJk6OMo0Pwcg">
+              <ownedParameter xmi:id="_UqE51aKZEeKJk6OMo0Pwcg" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UqE51qKZEeKJk6OMo0Pwcg" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>// TODO Auto-generated method stub&#xD;
+&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_UqE50aKZEeKJk6OMo0Pwcg" name="main" isStatic="true" method="_UqE51KKZEeKJk6OMo0Pwcg">
+              <ownedParameter xmi:id="_UqE50qKZEeKJk6OMo0Pwcg" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UqE506KZEeKJk6OMo0Pwcg" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_-GgGkKKVEeKJk6OMo0Pwcg" name="test">
           <packagedElement xmi:type="uml:Class" xmi:id="_-Gp3kKKVEeKJk6OMo0Pwcg" name="CalculatorTest">
@@ -67,6 +85,16 @@
             <ownedOperation xmi:id="_-Gp3kaKVEeKJk6OMo0Pwcg" name="setUp" raisedException="_-IviRaKVEeKJk6OMo0Pwcg"/>
             <ownedOperation xmi:id="_-G8ygKKVEeKJk6OMo0Pwcg" name="tearDown" raisedException="_-IviRaKVEeKJk6OMo0Pwcg"/>
             <ownedOperation xmi:id="_-G8yhKKVEeKJk6OMo0Pwcg" name="test" method="_-JyEEKKVEeKJk6OMo0Pwcg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_mULkEKKZEeKJk6OMo0Pwcg" name="ScientificCalculatorTest">
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mUefAKKZEeKJk6OMo0Pwcg" name="testAdd" specification="_mULkGaKZEeKJk6OMo0Pwcg">
+              <language>java</language>
+              <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_mULkEaKZEeKJk6OMo0Pwcg" name="setUp" raisedException="_-IviRaKVEeKJk6OMo0Pwcg"/>
+            <ownedOperation xmi:id="_mULkFaKZEeKJk6OMo0Pwcg" name="tearDown" raisedException="_-IviRaKVEeKJk6OMo0Pwcg"/>
+            <ownedOperation xmi:id="_mULkGaKZEeKJk6OMo0Pwcg" name="testAdd" method="_mUefAKKZEeKJk6OMo0Pwcg"/>
           </packagedElement>
         </packagedElement>
       </packagedElement>
@@ -111,4 +139,16 @@
   <UMLLabProfile:Reference xmi:id="_-IviQKKVEeKJk6OMo0Pwcg" base_Element="_-IlxQqKVEeKJk6OMo0Pwcg"/>
   <UMLLabProfile:Reference xmi:id="_-IviQqKVEeKJk6OMo0Pwcg" base_Element="_-IviQaKVEeKJk6OMo0Pwcg"/>
   <UMLLabProfile:Reference xmi:id="_-IviRqKVEeKJk6OMo0Pwcg" base_Element="_-IviRaKVEeKJk6OMo0Pwcg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mULkEqKZEeKJk6OMo0Pwcg" base_Element="_mULkEaKZEeKJk6OMo0Pwcg"/>
+  <UMLLabProfile:Annotations xmi:id="_mULkE6KZEeKJk6OMo0Pwcg" base_Element="_mULkEaKZEeKJk6OMo0Pwcg">
+    <annotations xmi:id="_mULkFKKZEeKJk6OMo0Pwcg" name="Before"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mULkFqKZEeKJk6OMo0Pwcg" base_Element="_mULkFaKZEeKJk6OMo0Pwcg"/>
+  <UMLLabProfile:Annotations xmi:id="_mULkF6KZEeKJk6OMo0Pwcg" base_Element="_mULkFaKZEeKJk6OMo0Pwcg">
+    <annotations xmi:id="_mULkGKKZEeKJk6OMo0Pwcg" name="After"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mULkGqKZEeKJk6OMo0Pwcg" base_Element="_mULkGaKZEeKJk6OMo0Pwcg"/>
+  <UMLLabProfile:Annotations xmi:id="_mULkG6KZEeKJk6OMo0Pwcg" base_Element="_mULkGaKZEeKJk6OMo0Pwcg">
+    <annotations xmi:id="_mULkHKKZEeKJk6OMo0Pwcg" name="Test"/>
+  </UMLLabProfile:Annotations>
 </xmi:XMI>
